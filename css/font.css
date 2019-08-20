@@ -1,0 +1,17 @@
+@font-face{
+	font-family: Lemon;
+	src: url(../font/LemonMilk.otf);
+}
+@font-face{
+	font-family: LemonLight;
+	src: url(../font/LemonMilklight.otf);
+}
+@font-face{
+	font-family: Lato;
+	src: url(../font/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: LemonBold;
+	src: url(../font/LemonMilkbold.otf);
+	font-weight: bold;
+}

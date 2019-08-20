@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Home </title>
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/name.css">
+	<script type="text/javascript">
+		let count=0;
+
+
+		function touch(){
+			let arr=['Hey', 'It', 'isn\'t', 'Clickable'];
+
+
+			if(count<4){
+				document.getElementById("name").innerHTML=arr[count];
+
+			}else{
+				count=-1;
+				document.getElementById("name").innerHTML="PRASHANT PANT";
+			}
+
+	         count++;
+
+
+
+		}
+
+		// function resizePage(){
+		// 	document.getElementById('allcontent').style.height=(document.body.clientWidth-100)*0.8;
+		// }
+
+
+
+	</script>
+
+
+</head>
+<body onload="resizePage();" onresize="resizePage();">
+	<nav>
+		<ul>
+			<li> <a href="index.html">Home </a> </li>
+			<li> <a href="Blog/blog.html"> Blog </a> </li>
+			<li id="name" onclick="touch();" style="cursor: pointer;">  PRASHANT PANT  </li>
+		</ul>
+
+	</nav>
+
+	
+	
+	
+
+	
+	<section id="allcontent">
+		<h1> <strong> HI</strong>... I'M PRASHANT.</h1>
+		<article>
+			<p> I write stuff which are shit sometimes and almost not-shit the other. As a matter of time, the content in this website
+				will get better with the outlook too. I believe in a lot of crap: some derived and the other intuited. Read the stuff I
+				write in the blog-section (wink).
+				</p>
+					</article>
+
+
+	</section>
+	<footer>
+		<h2> May 2019 </h2>
+
+		<ul>
+			<li> <a href="Blog/Calorie.html">The Calorie Myth: My take on it </a> </li>
+			<li><a href="Blog/Impatient.html">Impatient </a> </li>
+
+		</ul>
+	</footer>
+
+
+
+</body>
+
+</html>

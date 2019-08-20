@@ -1,0 +1,47 @@
+#allcontent{
+	padding-top:50px;
+	width: 800px;
+	margin-left: auto;
+	margin-right:auto;
+
+}
+section h1{
+	font-family: LemonLight;
+	font-size: 50px;
+	color: #535954;
+
+}
+section h2{
+	font-family: LemonLight;
+	color: #535954;
+}
+section ul li{
+	font-family: Lato;
+	font-size: 25px;
+}
+
+section ul li a:link, section ul li a:visited{
+	text-decoration: none;
+	color: black;
+
+}
+section ul li a:hover{
+	background: #7b7c7b;
+	color: white;
+	border-radius: 5px;
+
+}
+
+section article{
+	font-family: Lato;
+	font-size: 24px;
+	color: #3d3f3e;
+	line-height: 35px;
+}
+body{
+	background-color: #e5e5e5;
+}
+#heading{
+	line-height: 50px;	
+
+	}

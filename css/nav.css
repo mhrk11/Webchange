@@ -1,0 +1,59 @@
+@font-face{
+	font-family: Lemon;
+	src: url(../font/LemonMilk.otf);
+}
+@font-face{
+	font-family: LemonLight;
+	src: url(../font/LemonMilklight.otf);
+}
+
+body{
+	margin:0;
+
+}
+nav ul{
+	background-color:#555;
+	overflow: auto;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+
+
+
+}
+nav ul li{
+	
+	
+	font-family: LemonLight;
+	font-size: 25px;
+	float: left;
+
+
+}
+
+nav ul li a, #name{
+	display:block;
+	text-decoration: none;
+	padding: 20px;
+	color: white;
+
+
+}
+nav ul li a:hover{
+	background-color: #111;
+
+}
+#name{
+	float: right;
+	font-family: LemonLight;
+
+}
+
+
+
+
+
+
+
+
+

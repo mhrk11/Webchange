@@ -1,0 +1,94 @@
+@font-face{
+	font-family: Lemon;
+	src: url(../font/LemonMilk.otf);
+}
+@font-face{
+	font-family: LemonLight;
+	src: url(../font/LemonMilklight.otf);
+}
+@font-face{
+	font-family: Lato;
+	src: url(../font/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: LemonBold;
+	src: url(../font/LemonMilkbold.otf);
+	font-weight: bold;
+}
+
+/*#name, #name a:link, #name a:visited{
+	padding: 10px;
+	font-family: LemonLight;
+	color: #633f58;
+	text-decoration: none;
+}
+#name{
+
+}
+*/
+
+#allcontent{
+
+
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+section h1 strong {
+	font-family: Lemon;
+	font-size: 100px;
+	font-weight: bolder;
+	color: #242624;
+	font-style: none;
+
+
+
+}
+section h1{
+	padding: 2px;
+	color: #6c6d6c;
+	font-size: 50px;
+	font-family: LemonLight;
+
+}
+section article p{
+	
+	color:#0f0f0e;
+	font-family: Lato;
+	font-size: 25px;
+	width: 900px;
+	/*font-weight: bold;*/
+	
+}
+footer{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer h2{
+	font-family: Lemon;
+	font-size: 25px;
+
+}
+footer ul li {
+	font-family: lato;
+	font-size: 25px;
+}
+
+footer ul li a:link, footer ul li a:visited{
+	text-decoration: none;
+	color: black;
+
+}
+footer ul li a:hover{
+	background: #7b7c7b;
+	color: white;
+
+}
+body{
+	background-color: #ededed;
+
+}
+
